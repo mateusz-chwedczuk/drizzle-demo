@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:14.2-bullseye
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: Asd123
+      POSTGRES_DB: demo
+    ports:
+      - "5432:5432"
