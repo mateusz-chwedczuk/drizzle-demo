@@ -10,7 +10,6 @@
     "test": "jest",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "migrate": "pnpm with-env ts-node ./migrate.ts",
     "type-check": "tsc --noEmit",
     "studio": "pnpm with-env drizzle-kit studio",
     "with-env": "dotenv -e ../../.env --"
